@@ -55,7 +55,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
       <JsonLd data={webSite} />
       <DismissibleStickyBanner />
       <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_300px]">
-      <HomePageClient home={messages.home} locale={locale} articles={allArticles} recentArticles={recentArticles} closeLabel={messages.shared.close} readFullGuide={messages.shared.readFullGuide} />
+      <HomePageClient home={messages.home} locale={locale} articles={allArticles} recentArticles={recentArticles} closeLabel={messages.shared.close} readFullGuide={messages.shared.readFullGuide} watchOnYoutube={messages.shared.watchOnYoutube} />
         <WikiSidebar locale={locale} navGroups={navGroups} />
       </div>
     </main>

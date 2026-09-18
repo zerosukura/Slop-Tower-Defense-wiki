@@ -74,33 +74,36 @@ export async function SiteFooter({ locale }: { locale: string }) {
 
 function FooterList({ title, locale, links }: { title: string; locale: string; links: string[][] }) { return <div><h4 className="font-semibold text-foreground">{title}</h4><ul className="mt-3 space-y-2 text-sm text-muted-foreground">{links.map(([label, href]) => <li key={href}>{href.startsWith("http") ? <a className="hover:text-foreground" href={href} target="_blank" rel="noreferrer">{label}</a> : <Link className="hover:text-foreground" href={localizeHref(href, locale)}>{label}</Link>}</li>)}</ul></div>; }
 
-export function TrailerDialog({ closeLabel, title }: { closeLabel: string; title: string }) {
+export function TrailerDialog({ closeLabel, title, videoId, watchLabel }: { closeLabel: string; title: string; videoId: string; watchLabel: string }) {
   return (
     <dialog id="trailer-dialog" style={{ width: "100vw", height: "100dvh", maxWidth: "100vw", maxHeight: "100dvh" }} className="fixed inset-0 z-[100] flex items-center justify-center border-0 bg-black/80 p-4 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-200" onClose={() => { const frame = document.getElementById("trailer-iframe") as HTMLIFrameElement; frame.src = "about:blank"; const d = document.getElementById("trailer-dialog") as HTMLDialogElement; d.classList.add("opacity-0", "pointer-events-none"); d.classList.remove("opacity-100", "pointer-events-auto"); }} onClick={(e) => { const d = document.getElementById("trailer-dialog") as HTMLDialogElement; if (e.target === d) d.close(); }}>
       <div className="relative w-full max-w-4xl mx-4">
         <iframe id="trailer-iframe" className="aspect-video w-full rounded-xl" title={title} allow="autoplay; encrypted-media; picture-in-picture" allowFullScreen />
-        <button aria-label={closeLabel} className="absolute -top-10 right-0 inline-flex items-center gap-2 text-sm font-medium text-white/80 hover:text-white" onClick={() => { (document.getElementById("trailer-dialog") as HTMLDialogElement).close(); }}><X className="size-4" />{closeLabel}</button>
+        <div className="mt-3 flex items-center justify-between gap-4">
+          <a href={`https://www.youtube.com/watch?v=${videoId}`} target="_blank" rel="noreferrer" className="text-sm font-medium text-white/80 underline-offset-4 hover:text-white hover:underline">{watchLabel}</a>
+          <button aria-label={closeLabel} className="inline-flex items-center gap-2 text-sm font-medium text-white/80 hover:text-white" onClick={() => { (document.getElementById("trailer-dialog") as HTMLDialogElement).close(); }}><X className="size-4" />{closeLabel}</button>
+        </div>
       </div>
     </dialog>
   );
 }
 
-export function TrailerButton({ videoId, label, closeLabel }: { videoId: string; label: string; closeLabel: string }) {
+export function TrailerButton({ videoId, label, closeLabel, watchLabel }: { videoId: string; label: string; closeLabel: string; watchLabel: string }) {
   return (
     <>
       <div className="relative">
-          <TrailerCard videoId={videoId} label={label} />
+          <TrailerCard label={label} watchLabel={watchLabel} />
           <button
             type="button"
             className="absolute inset-0 z-20 block w-full rounded-2xl text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme-light))] focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             aria-label={label}
             aria-haspopup="dialog"
-            onClick={() => { const d = document.getElementById("trailer-dialog") as HTMLDialogElement; const f = document.getElementById("trailer-iframe") as HTMLIFrameElement; f.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`; d.showModal(); d.classList.remove("opacity-0", "pointer-events-none"); d.classList.add("opacity-100", "pointer-events-auto"); }}
+            onClick={() => { const d = document.getElementById("trailer-dialog") as HTMLDialogElement; const f = document.getElementById("trailer-iframe") as HTMLIFrameElement; f.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`; d.showModal(); d.classList.remove("opacity-0", "pointer-events-none"); d.classList.add("opacity-100", "pointer-events-auto"); }}
           >
             <span className="sr-only">{label}</span>
           </button>
       </div>
-      <TrailerDialog title={label} closeLabel={closeLabel} />
+      <TrailerDialog videoId={videoId} title={label} closeLabel={closeLabel} watchLabel={watchLabel} />
     </>
   );
 }
