@@ -1,0 +1,13 @@
+{
+  "name": "Slop Tower Defense Wiki",
+  "short_name": "Slop Tower Defense",
+  "description": "Fan-made Slop Tower Defense Roblox wiki with codes, units, crafting, events and beginner guides.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#64b51e",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

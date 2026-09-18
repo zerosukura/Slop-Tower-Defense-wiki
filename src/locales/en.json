@@ -1,0 +1,325 @@
+{
+  "site": {
+    "name": "Slop Tower Defense Wiki",
+    "shortName": "Slop Tower Defense",
+    "tagline": "Fan-Made Community Wiki",
+    "description": "Your complete guide to Slop Tower Defense on Roblox. Find codes, free tower guides, units, tier lists, crafting tips, updates, and community resources.",
+    "legalNotice": "Non-official fan wiki. Made by players, for players."
+  },
+  "nav": {
+    "guide": "Guide",
+    "codes": "Codes",
+    "units": "Units",
+    "tierList": "Tier List",
+    "crafting": "Crafting",
+    "modes": "Modes",
+    "updates": "Updates",
+    "community": "Community",
+    "home": "Home",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
+  },
+  "home": {
+    "meta": {
+      "title": "Slop Tower Defense Wiki — Codes, Free Towers, Units",
+      "description": "Complete Slop Tower Defense Wiki covering codes, free towers, units, crafting, game modes, updates, and beginner guides for Roblox players."
+    },
+    "hero": {
+      "eyebrow": "Fan-Made Community Wiki",
+      "title": "Slop Tower Defense",
+      "description": "Build your defense in Roblox's Slop Tower Defense with code checks, free tower guides, unit notes, tier-list frameworks, and update coverage.",
+      "stats": [
+        "Strategy / Tower Defense",
+        "2.8M+ Visits",
+        "3,805 Favorites",
+        "20 Players / Server",
+        "Updated Sep 2026"
+      ],
+      "primaryCta": "Start Free Towers Guide",
+      "secondaryCta": "Explore Units",
+      "tertiaryCta": "Check Codes",
+      "videoLabel": "Community video"
+    },
+    "updates": {
+      "title": "Recent Updates",
+      "browse": "Browse All Guides",
+      "viewAll": "View All"
+    },
+    "start": {
+      "eyebrow": "Start Here",
+      "title": "Your Slop Tower Defense Journey",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Beginner Guide",
+          "description": "Learn the core summon, craft, and wave-defense loop before spending your early resources."
+        },
+        {
+          "number": "2",
+          "title": "Codes & Redemption",
+          "description": "Check the published SLOP code and follow the redemption steps for the current game build."
+        },
+        {
+          "number": "3",
+          "title": "Units & Roles",
+          "description": "Build a roster from summoned and crafted units, then cover the roles your wave defense needs."
+        },
+        {
+          "number": "4",
+          "title": "Crafting & Updates",
+          "description": "Use the live crafting interface and follow new seasons, raids, modes, and game updates."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Popular Pages",
+      "title": "Trending Now",
+      "quickLinks": [
+        "Free Towers",
+        "Units",
+        "Active Codes",
+        "Latest Updates"
+      ],
+      "cards": []
+    },
+    "aboutGame": {
+      "title": "What is Slop Tower Defense?",
+      "paragraphs": [
+        "Slop Tower Defense is a Roblox strategy experience where players summon and craft units, then build a defense against enemy waves.",
+        "Its progression revolves around expanding a unit roster, choosing useful team roles, and adapting your defense as new seasons, raids, and game modes arrive."
+      ],
+      "stats": [
+        { "label": "Developer", "value": "Slop TD!" },
+        { "label": "Platform", "value": "Roblox" },
+        { "label": "Genre", "value": "Strategy / Tower Defense" },
+        { "label": "Visits", "value": "2.8M+" },
+        { "label": "Favorites", "value": "3,805" },
+        { "label": "Server Size", "value": "20 Players" },
+        { "label": "Updated", "value": "Sep 2026" }
+      ],
+      "cta": "Explore All Guides"
+    },
+    "explore": {
+      "title": "Slop Tower Defense Wiki Navigation",
+      "description": "Jump straight to the Slop Tower Defense guides and game information you need.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Slop Tower Defense Codes",
+          "description": "Check the current Slop Tower Defense code and the reward published for it. New codes can arrive with live updates and events.",
+          "href": "/codes",
+          "displayType": "code-cards",
+          "highlights": [
+            { "label": "SLOP", "detail": "Cash reward", "badge": "Active" }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Slop Tower Defense Beginner Guide",
+          "description": "Learn the core Slop Tower Defense loop from summoning and crafting units to building a defense against enemy waves.",
+          "href": "/guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Start with the summon-and-craft progression loop." },
+            { "label": "2", "detail": "Build a roster of units that supports your defense plan." },
+            { "label": "3", "detail": "Use your units to defend against enemy waves." },
+            { "label": "4", "detail": "Follow the Slop TD Roblox Community for new game information." }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Slop Tower Defense Units and Roles",
+          "description": "Understand how summoned and crafted units fit into a Slop Tower Defense roster and wave-defense plan.",
+          "href": "/units",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "Summoned Units", "detail": "Units obtained through the summon system form the roster used for defense." },
+            { "label": "Crafted Units", "detail": "Crafting is one of the core progression systems in the game." },
+            { "label": "Wave Defense", "detail": "Choose units that help your current team handle the active enemy waves." },
+            { "label": "Team Roles", "detail": "Compare damage, area coverage, support, and economy roles as your roster grows." }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Slop Tower Defense Crafting Guide",
+          "description": "Follow the crafting side of Slop Tower Defense and use the current in-game interface to plan your next unit.",
+          "href": "/crafting",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Collect the units and progression resources shown in the current build." },
+            { "label": "2", "detail": "Open the crafting interface and inspect available craft targets." },
+            { "label": "3", "detail": "Prioritize a craft that fills a missing role in your wave-defense roster." },
+            { "label": "4", "detail": "Recheck crafting requirements after game updates." }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Slop Tower Defense Game Modes",
+          "description": "See how the strategy and tower-defense identity of Slop Tower Defense connects to wave defense and upcoming mode changes.",
+          "href": "/modes",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "Tower Defense", "detail": "The Roblox experience is classified under Strategy / Tower Defense." },
+            { "label": "Enemy Waves", "detail": "The core description centers on defending against waves of enemies." },
+            { "label": "Raid Revamp", "detail": "An official event listing schedules a Raid Revamp for September 25, 2026." },
+            { "label": "New Gamemode", "detail": "An official event listing announces a new game mode for October 2, 2026." }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Slop Tower Defense Updates and Events",
+          "description": "Track the live update schedule for Slop Tower Defense, including seasonal content, raid changes, and new modes.",
+          "href": "/updates",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "Backrooms Season", "detail": "The Roblox event listing schedules Backrooms Season for September 18, 2026.", "badge": "New" },
+            { "label": "Raid Revamp", "detail": "The Roblox event listing schedules a Raid Revamp for September 25, 2026." },
+            { "label": "New Gamemode", "detail": "The Roblox event listing announces a new game mode for October 2, 2026." },
+            { "label": "Mini Update", "detail": "The experience page is labeled MINI UPDATE and reports a September 15, 2026 update." }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Slop Tower Defense Community",
+          "description": "Find the Roblox community and public Discord used for Slop Tower Defense news, codes, and updates.",
+          "href": "/community",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "Roblox Community", "detail": "The Slop TD! Roblox Community is the stable first-party community entry." },
+            { "label": "Discord", "detail": "The public Slop Tower Defense Community Discord is used for codes and news." },
+            { "label": "Codes and News", "detail": "The experience description directs players to the community server for codes, leaks, and news." }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Slop Tower Defense Code Redemption Guide",
+          "description": "Use the current in-game code interface and check the result after submitting a Slop Tower Defense code.",
+          "href": "/codes",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Open Slop Tower Defense and let the current build finish loading." },
+            { "label": "2", "detail": "Use the code interface shown in the current build." },
+            { "label": "3", "detail": "Submit SLOP and check the in-game response or currency balance." },
+            { "label": "4", "detail": "Check the Roblox community channels when the code list changes." }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Quick answers to the most common questions about Slop Tower Defense.",
+      "items": [
+        {
+          "question": "What is Slop Tower Defense?",
+          "answer": "Slop Tower Defense is a Roblox strategy experience built around summoning and crafting units, then defending against enemy waves."
+        },
+        {
+          "question": "How do I get free towers in Slop Tower Defense?",
+          "answer": "Start by using the summon and crafting systems, then build a roster that helps you defend the waves available in your current game build."
+        },
+        {
+          "question": "What is the SLOP code in Slop Tower Defense?",
+          "answer": "SLOP is the code currently published on the official Slop Tower Defense experience page and provides a cash reward."
+        },
+        {
+          "question": "Which units are best in Slop Tower Defense?",
+          "answer": "The best choice depends on the active waves and your roster. Compare damage, area coverage, support, and economy roles instead of relying on one permanent ranking."
+        },
+        {
+          "question": "Where can I find Slop Tower Defense updates?",
+          "answer": "Check the official Roblox experience page, the Slop TD! Roblox Community, and the public Discord linked from the community guide."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Ready to Build Your Slop Tower Defense?",
+      "description": "Start with the free-towers guide, check the current code evidence, and use the unit and update pages as the game changes.",
+      "primary": "Read the Free Towers Guide",
+      "secondary": "Play on Roblox"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guides Overview",
+    "overviewDescription": "Complete guides for Slop Tower Defense — from beginner progression to units, crafting, wave defense, and gameplay tips."
+  },
+  "codes": {
+    "overviewTitle": "Codes Overview",
+    "overviewDescription": "All current and retired Slop Tower Defense codes with rewards and redemption instructions."
+  },
+  "tier-list": {
+    "overviewTitle": "Tier List Overview",
+    "overviewDescription": "Slop Tower Defense unit tier list and role framework for comparing wave-defense options."
+  },
+  "units": {
+    "overviewTitle": "Units Overview",
+    "overviewDescription": "Complete Slop Tower Defense unit guide covering summoned units, crafted units, and team roles."
+  },
+  "crafting": {
+    "overviewTitle": "Crafting Overview",
+    "overviewDescription": "Slop Tower Defense crafting and summoning guides for building a stronger wave-defense roster."
+  },
+  "modes": {
+    "overviewTitle": "Game Modes Overview",
+    "overviewDescription": "Slop Tower Defense game modes, wave-defense information, and current event notes."
+  },
+  "updates": {
+    "overviewTitle": "Updates Overview",
+    "overviewDescription": "Latest Slop Tower Defense updates, seasons, raids, new modes, and content releases."
+  },
+  "community": {
+    "overviewTitle": "Community Overview",
+    "overviewDescription": "Slop Tower Defense community resources including the Roblox Community and public Discord."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki Navigation",
+    "activeCodes": "Active Codes",
+    "activeCodeHint": "Officially listed code; verify the current reward in-game.",
+    "searchButton": "Search",
+    "searchPlaceholder": "Search the wiki...",
+    "searchNoResults": "No results found",
+    "close": "Close",
+    "noCodesLabel": "None yet",
+    "noCodesHint": "No active codes available right now — check back soon.",
+    "updated": "Updated",
+    "viewAllCodes": "View all codes",
+    "readFullGuide": "Read Full Guide",
+    "playOnRoblox": "Play on Roblox",
+    "inThisSection": "In this section",
+    "tableOfContents": "Table of Contents",
+    "nextSteps": "Next Steps",
+    "needHelp": "Need Help?",
+    "relatedReading": "Related Reading",
+    "relatedGuides": "Related Guides",
+    "readMore": "Read more",
+    "officialMedia": "Official media",
+    "home": "Home",
+    "noGuidesAvailable": "No guides available yet. Check back soon!"
+  },
+  "footer": {
+    "aboutTitle": "Slop Tower Defense Wiki",
+    "about": "Slop Tower Defense Wiki is an independent fan-made guide website. We cover code evidence, free towers, units, crafting, updates, and practical gameplay resources.",
+    "quickLinks": "Quick Links",
+    "guides": "Guides",
+    "legal": "Legal",
+    "copyright": "2026 Slop Tower Defense Wiki. Not affiliated with the Slop Tower Defense development team or Roblox.",
+    "description": "Roblox strategy tower defense with summonable units, crafting, waves, and community updates.",
+    "playGame": "Play Slop Tower Defense",
+    "officialDiscord": "Community Discord",
+    "officialYoutube": "Community Video",
+    "beginnerGuide": "Beginner Guide",
+    "tierList": "Tier List",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "sidebarCodes": [
+    {
+      "code": "No Active Codes",
+      "reward": "No active codes available"
+    }
+  ],
+  "metadata": {
+    "title": "Slop Tower Defense Wiki — Codes, Free Towers, Units",
+    "description": "Explore Slop Tower Defense Wiki for codes, free tower guides, units, crafting, game modes, updates, and beginner help for Roblox players.",
+    "keywords": "Slop Tower Defense, Roblox, codes, free towers, units, crafting, tier list, updates"
+  }
+}

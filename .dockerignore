@@ -1,0 +1,10 @@
+node_modules
+.next
+.next-dev
+.env.local
+.git
+.github
+*.md
+CLAUDE.md
+.agent-browser
+.claude

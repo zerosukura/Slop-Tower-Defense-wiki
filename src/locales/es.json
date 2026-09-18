@@ -1,0 +1,81 @@
+{
+  "site": {
+    "name": "Slop Tower Defense Wiki",
+    "shortName": "Slop Tower Defense",
+    "tagline": "Wiki de la Comunidad Hecha por Fans",
+    "description": "Tu guía completa de Slop Tower Defense en Roblox: códigos, torres gratis, unidades, creación, modos y actualizaciones.",
+    "legalNotice": "Wiki de fans no oficial. Hecha por jugadores, para jugadores."
+  },
+  "nav": {
+    "guide": "Guía",
+    "codes": "Códigos",
+    "units": "Unidades",
+    "tierList": "Tier List",
+    "crafting": "Creación",
+    "modes": "Modos",
+    "updates": "Actualizaciones",
+    "community": "Comunidad",
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema"
+  },
+  "home": {
+    "meta": {
+      "title": "Slop Tower Defense Wiki — Códigos, Torres Gratis, Unidades",
+      "description": "Wiki completa de Slop Tower Defense con códigos, torres gratis, unidades, creación, modos, actualizaciones y guías para Roblox."
+    },
+    "hero": {
+      "eyebrow": "Wiki de la Comunidad Hecha por Fans",
+      "title": "Slop Tower Defense",
+      "description": "Construye tu defensa en Slop Tower Defense de Roblox con códigos, guías de torres gratis, unidades, creación y actualizaciones.",
+      "primaryCta": "Guía de Torres Gratis",
+      "secondaryCta": "Explorar Unidades",
+      "tertiaryCta": "Ver Códigos",
+      "videoLabel": "Vídeo de la comunidad"
+    },
+    "start": {
+      "eyebrow": "Empieza Aquí",
+      "title": "Tu Viaje en Slop Tower Defense",
+      "cards": [
+        { "number": "1", "title": "Guía para Principiantes", "description": "Aprende el ciclo de invocación, creación y defensa contra oleadas." },
+        { "number": "2", "title": "Códigos y Canje", "description": "Consulta el código SLOP y los pasos para canjearlo." },
+        { "number": "3", "title": "Unidades y Roles", "description": "Forma un equipo con unidades invocadas y creadas." },
+        { "number": "4", "title": "Creación y Actualizaciones", "description": "Sigue la creación, temporadas, raids y nuevos modos." }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Slop Tower Defense?",
+      "paragraphs": [
+        "Slop Tower Defense es una experiencia de estrategia de Roblox en la que los jugadores invocan y crean unidades para defenderse de oleadas enemigas.",
+        "La progresión consiste en ampliar tu colección de unidades, elegir roles útiles y adaptar la defensa cuando llegan nuevas temporadas, raids y modos."
+      ],
+      "cta": "Explorar Todas las Guías"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "description": "Respuestas rápidas a las preguntas más comunes sobre Slop Tower Defense.",
+      "items": [
+        { "question": "¿Qué es Slop Tower Defense?", "answer": "Slop Tower Defense es una experiencia de estrategia de Roblox basada en invocar y crear unidades para defender oleadas enemigas." },
+        { "question": "¿Cómo consigo torres gratis en Slop Tower Defense?", "answer": "Usa los sistemas de invocación y creación y forma un equipo para las oleadas disponibles en la versión actual del juego." },
+        { "question": "¿Cuál es el código SLOP de Slop Tower Defense?", "answer": "SLOP es el código publicado en la página oficial de la experiencia y ofrece una recompensa de dinero." },
+        { "question": "¿Dónde encuentro actualizaciones de Slop Tower Defense?", "answer": "Consulta la experiencia oficial de Roblox, la comunidad Slop TD! y el Discord público enlazado en la guía de comunidad." }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para construir tu defensa?",
+      "description": "Empieza por la guía de torres gratis, consulta el código actual y usa las páginas de unidades y actualizaciones.",
+      "primary": "Leer la Guía de Torres Gratis",
+      "secondary": "Jugar en Roblox"
+    }
+  },
+  "guide": { "overviewTitle": "Resumen de Guías", "overviewDescription": "Guías de Slop Tower Defense para progresión, unidades, creación y defensa contra oleadas." },
+  "codes": { "overviewTitle": "Resumen de Códigos", "overviewDescription": "Códigos actuales y antiguos de Slop Tower Defense con recompensas e instrucciones de canje." },
+  "units": { "overviewTitle": "Resumen de Unidades", "overviewDescription": "Unidades invocadas y creadas de Slop Tower Defense y sus funciones en el equipo." },
+  "tier-list": { "overviewTitle": "Resumen de la Tier List", "overviewDescription": "Marco de roles para comparar opciones de defensa en Slop Tower Defense." },
+  "crafting": { "overviewTitle": "Resumen de Creación", "overviewDescription": "Guías de creación e invocación para formar un equipo más fuerte." },
+  "modes": { "overviewTitle": "Resumen de Modos", "overviewDescription": "Modos de juego, oleadas y eventos actuales de Slop Tower Defense." },
+  "updates": { "overviewTitle": "Resumen de Actualizaciones", "overviewDescription": "Temporadas, raids, nuevos modos y actualizaciones de Slop Tower Defense." },
+  "community": { "overviewTitle": "Resumen de la Comunidad", "overviewDescription": "Comunidad oficial de Roblox y Discord público de Slop Tower Defense." },
+  "shared": { "wikiNavigation": "Navegación de la Wiki", "activeCodes": "Códigos Activos", "activeCodeHint": "Código publicado oficialmente; verifica la recompensa actual dentro del juego.", "searchButton": "Buscar", "searchPlaceholder": "Buscar en la wiki...", "searchNoResults": "No se encontraron resultados", "close": "Cerrar", "updated": "Actualizado", "viewAllCodes": "Ver todos los códigos", "readFullGuide": "Leer la guía completa", "playOnRoblox": "Jugar en Roblox", "inThisSection": "En esta sección", "tableOfContents": "Índice", "relatedGuides": "Guías Relacionadas", "readMore": "Leer más", "home": "Inicio", "noGuidesAvailable": "Todavía no hay guías disponibles." },
+  "footer": { "aboutTitle": "Slop Tower Defense Wiki", "about": "Una wiki independiente hecha por fans con códigos, torres gratis, unidades, creación, actualizaciones y recursos del juego.", "quickLinks": "Enlaces Rápidos", "guides": "Guías", "copyright": "2026 Slop Tower Defense Wiki. No afiliada al equipo de desarrollo ni a Roblox.", "description": "Juego de estrategia y tower defense de Roblox con unidades, creación, oleadas y actualizaciones.", "playGame": "Jugar Slop Tower Defense", "officialDiscord": "Discord de la Comunidad", "officialYoutube": "Vídeo de la Comunidad", "beginnerGuide": "Guía para Principiantes", "tierList": "Tier List", "privacyPolicy": "Política de Privacidad", "termsOfService": "Términos de Servicio" }
+}
