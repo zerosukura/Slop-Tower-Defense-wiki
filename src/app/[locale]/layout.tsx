@@ -3,6 +3,7 @@ import { hasLocale } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import { ThemeProvider } from "next-themes";
 import { JsonLd, SiteFooter, SiteHeader } from "@/components/site";
 import { buildSearchIndex } from "@/lib/search-index";
@@ -64,6 +65,12 @@ export default async function LocaleLayout({ children, params }: { children: Rea
             <SiteHeader locale={locale} searchIndex={searchIndex} />
             {children}
             <SiteFooter locale={locale} />
+            {process.env.NODE_ENV === "production" && (
+              <Script
+                src="https://pl30135079.profitableratecpmnetwork.com/d3/68/7e/d3687eeb81ee673707c9eb42440a432e.js"
+                strategy="afterInteractive"
+              />
+            )}
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
