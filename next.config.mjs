@@ -2,8 +2,10 @@ import createNextIntlPlugin from "next-intl/plugin";
 import createMDX from "@next/mdx";
 import remarkGfm from "remark-gfm";
 
-if (process.env.NODE_ENV === "production" && !process.env.NEXT_PUBLIC_SITE_URL?.trim()) {
-  throw new Error("NEXT_PUBLIC_SITE_URL must be set for a production build so canonical, sitemap, and robots URLs cannot point to localhost.");
+const hasProductionOrigin = process.env.NEXT_PUBLIC_SITE_URL?.trim() || process.env.VERCEL_URL?.trim();
+
+if (process.env.NODE_ENV === "production" && !hasProductionOrigin) {
+  throw new Error("Set NEXT_PUBLIC_SITE_URL, or deploy on a platform that provides VERCEL_URL, so canonical, sitemap, and robots URLs do not point to localhost.");
 }
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");

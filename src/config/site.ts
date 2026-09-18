@@ -1,4 +1,10 @@
-export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL?.trim() || "http://localhost:3001").replace(/\/+$/, "");
+const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+const vercelSiteUrl = process.env.VERCEL_URL?.trim();
+const vercelOrigin = vercelSiteUrl
+  ? (/^https?:\/\//i.test(vercelSiteUrl) ? vercelSiteUrl : `https://${vercelSiteUrl}`)
+  : undefined;
+
+export const siteUrl = (configuredSiteUrl || vercelOrigin || "http://localhost:3001").replace(/\/+$/, "");
 
 export const adsterraBannerKey = process.env.NEXT_PUBLIC_ADSTERRA_BANNER_320X50?.trim() || "";
 
