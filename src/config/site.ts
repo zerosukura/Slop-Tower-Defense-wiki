@@ -7,6 +7,7 @@ const vercelOrigin = vercelSiteUrl
 export const siteUrl = (configuredSiteUrl || vercelOrigin || "http://localhost:3001").replace(/\/+$/, "");
 
 export const adsterraBannerKey = process.env.NEXT_PUBLIC_ADSTERRA_BANNER_320X50?.trim() || "";
+export const adsterraRectangleKey = process.env.NEXT_PUBLIC_ADSTERRA_BANNER_300X250?.trim() || "";
 
 export const gameConfig = {
   name: "Slop Tower Defense",

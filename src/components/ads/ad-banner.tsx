@@ -1,5 +1,6 @@
 const AD_SIZES: Record<string, { file: string; width: number; height: number }> = {
   "banner-320x50": { file: "/ads/banner-320x50.html", width: 320, height: 50 },
+  "banner-300x250": { file: "/ads/banner-300x250.html", width: 300, height: 250 },
 };
 
 export function AdBanner({ type, adKey, eager }: { type: string; adKey?: string; eager?: boolean }) {
