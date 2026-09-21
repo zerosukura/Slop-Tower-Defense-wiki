@@ -8,3 +8,6 @@
 [build.environment]
   NEXT_PUBLIC_SITE_URL = "https://slop-tower-defense.wiki"
   BUN_VERSION = "1.3.14"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
