@@ -22,7 +22,9 @@ const distDir = process.env.NODE_ENV === "development" ? ".next-dev" : ".next";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   distDir,
-  output: "standalone",
+  // Netlify's Next.js runtime handles the server bundle itself. Keep
+  // standalone output only for the Docker image that runs server.js.
+  output: process.env.BUILD_STANDALONE === "true" ? "standalone" : undefined,
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   allowedDevOrigins: ["*.preview.same-app.com"],
   images: {
