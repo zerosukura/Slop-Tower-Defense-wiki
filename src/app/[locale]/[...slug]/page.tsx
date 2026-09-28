@@ -85,9 +85,22 @@ async function DetailPage({ locale, contentType, slug, navGroups }: { locale: Lo
 }
 
 async function ArticleCards({ locale, contentType, currentSlug, relatedLabel }: { locale: string; contentType: string; currentSlug: string; relatedLabel: string }) {
-  // 动态获取同分类其他文章（排除当前文章）
-  const allItems = await getAllContent(contentType, locale as Locale);
-  const related = allItems.filter((item) => item.slug !== currentSlug).slice(0, 4);
+  // Build a cross-topic cluster instead of linking only within the current category.
+  // Codes should connect to redemption, updates and beginner pages; units should
+  // connect to tier lists and crafting. This gives crawlers and readers a clearer
+  // path through the site's main search intents.
+  const orderedTypes = [contentType, "codes", "guide", "units", "tier-list", "crafting", "modes", "updates", "community"];
+  const related: ContentItem[] = [];
+  for (const type of orderedTypes) {
+    if (related.length >= 4) break;
+    const items = await getAllContent(type, locale as Locale);
+    for (const candidate of items) {
+      if (type === contentType && candidate.slug === currentSlug) continue;
+      if (related.some((item) => item.contentType === candidate.contentType && item.slug === candidate.slug)) continue;
+      related.push(candidate);
+      if (related.length >= 4) break;
+    }
+  }
 
   if (related.length === 0) return null;
 
